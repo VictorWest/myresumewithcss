@@ -1,0 +1,42 @@
+.image{
+    border-radius: 50%;
+}
+.wallpaper{
+    border-radius: 0px;
+}
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+  }
+footer{
+    background-color: #75C7FB;
+}
+.word{
+    color: #3753A4!important;
+    font-weight: bold;
+}
+.icon{
+    display: flex!important;
+    flex-direction: column!important;
+    gap: 10px;
+    color: #3753A4;
+}
+@media (max-width: 550px) {
+    .wallpaper{
+        width: 100vw;
+        height: 300px;
+    }
+    .icon{
+        margin-top: 3%; margin-left: 5%;
+        gap: 20px;
+        width: 100vw;
+        align-items: center;
+    }
+    .word{
+        text-align: center;
+        margin-right: 0%!important;
+        margin-bottom: 2%!important;
+        width: 100vw;
+    }
+  }
